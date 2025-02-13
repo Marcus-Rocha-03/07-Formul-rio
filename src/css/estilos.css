@@ -1,0 +1,94 @@
+body{
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(../imagens/bg-repeat.jpg);
+    background-repeat: repeat-x;
+    background-size: contain;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 90px;
+}
+
+.textos{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: 70px;
+}
+
+.textos h1{
+    font-weight: 900;
+    font-size: 50px;
+    margin: 0;
+}
+
+.textos p{
+    font-weight: 400;
+    font-size: 25px;
+    margin: 0;
+}
+
+.formulario{
+    background-color: white;
+    width: 800px;
+    height: 800px;
+}
+
+.informacoe{
+    padding: 50px;
+}
+
+.informacoes{
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    height: 50px;
+    margin: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.gde{
+    height: 200px;
+    margin: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.obrigatorio{
+    margin: 20px;
+    font-size: 20px;
+}
+
+.btn-enviar{
+    background-color: #3CCC87;
+    color: white;
+    height: 100px;
+    margin: 20px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+.bordaV{
+    border: solid green;
+}
+
+.bordaR{
+    border: solid red;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+}
+
